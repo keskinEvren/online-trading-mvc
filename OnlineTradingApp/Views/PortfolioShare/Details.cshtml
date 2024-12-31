@@ -1,0 +1,35 @@
+@model OnlineTradingApp.Models.PortfolioShare
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>PortfolioShare</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Quantity)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Quantity)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Portfolio)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Portfolio.PortfolioId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Share)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Share.Symbol)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a class="btn btn-secondary" asp-action="Index">Back to List</a>
+</div>

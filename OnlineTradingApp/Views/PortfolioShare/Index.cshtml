@@ -1,0 +1,42 @@
+@model IEnumerable<OnlineTradingApp.Models.PortfolioShare>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Portfolio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Quantity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Share)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                <a class="btn btn-outline-secondary" asp-controller="Portfolio" asp-action="PortfolioDetails" asp-route-portfolioId="@item.Portfolio.PortfolioId">@item.Portfolio.PortfolioId</a>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quantity)
+            </td>
+            <td>
+                <a class="btn btn-outline-secondary" asp-controller="Share" asp-action="ShareDetails" asp-route-symbol="@item.Share.Symbol">@item.Share.Symbol</a>
+            </td>
+            <td>
+                <a class="btn btn-info " asp-action="Details" asp-route-id="@item.PortfolioShareId">Details</a> 
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

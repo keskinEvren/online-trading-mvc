@@ -1,0 +1,75 @@
+@model IEnumerable<OnlineTradingApp.Models.Portfolio>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Create New</a>
+</p>
+
+<!-- Search Input -->
+<div class="mb-3">
+    <input type="text" id="searchInput" class="form-control" placeholder="Search by Balance or User" onkeyup="searchTable()">
+</div>
+
+<!-- Table -->
+<table class="table table-striped" id="portfolioTable">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Balance)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Balance)
+                </td>
+                <td>
+                    <a class="btn btn-outline-secondary" asp-controller="User" asp-action="UserDetails" asp-route-email="@item.User.UserEmail">@item.User.UserEmail</a>
+                </td>
+                <td>
+                    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.PortfolioId">Edit</a> 
+                    <a class="btn btn-info ms-3" asp-action="Details" asp-route-id="@item.PortfolioId">Details</a>
+                    <a class="btn btn-danger ms-3" asp-action="Delete" asp-route-id="@item.PortfolioId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script>
+// Function to filter the table based on search input
+function searchTable() {
+    var input = document.getElementById('searchInput');
+    var filter = input.value.toLowerCase();
+    var table = document.getElementById('portfolioTable');
+    var tr = table.getElementsByTagName('tr');
+
+    for (var i = 1; i < tr.length; i++) { // Start at 1 to skip the header row
+        var tdBalance = tr[i].getElementsByTagName('td')[0];
+        var tdUser = tr[i].getElementsByTagName('td')[1];
+
+        if (tdBalance || tdUser) {
+            var txtValueBalance = tdBalance.textContent || tdBalance.innerText;
+            var txtValueUser = tdUser.textContent || tdUser.innerText;
+
+            if (txtValueBalance.toLowerCase().indexOf(filter) > -1 || 
+                txtValueUser.toLowerCase().indexOf(filter) > -1) {
+                tr[i].style.display = "";
+            } else {
+                tr[i].style.display = "none";
+            }
+        }
+    }
+}
+</script>

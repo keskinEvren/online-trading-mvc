@@ -1,0 +1,94 @@
+@model IEnumerable<OnlineTradingApp.Models.Share>
+
+@{
+ViewData["Title"] = "Index";
+
+}
+
+<h1>Index</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Create New</a>
+</p>
+
+<!-- Search Input -->
+<div class="mb-3">
+    <input type="text" id="searchInput" class="form-control" placeholder="Search by Symbol, Price, or Quantity" onkeyup="searchTable()">
+</div>
+
+<!-- Table -->
+<table class="table table-striped" id="sharesTable">
+    <thead>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Symbol)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </th>
+        <th>
+            Total Volume
+        </th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Symbol)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Price)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Quantity)
+        </td>
+        <td>
+            @{
+                var totalAmount = item.Price * item.Quantity;
+            }
+            @totalAmount
+        </td>
+        <td>
+            <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.ShareId">Edit</a>
+            <a class="btn btn-info ms-3" asp-action="Details" asp-route-id="@item.ShareId">Details</a>
+            <a class="btn btn-danger ms-3" asp-action="Delete" asp-route-id="@item.ShareId">Delete</a>
+        </td>
+    </tr>
+    }
+    </tbody>
+</table>
+
+<script>
+    // Function to filter the table based on search input
+    function searchTable() {
+        var input = document.getElementById('searchInput');
+        var filter = input.value.toLowerCase();
+        var table = document.getElementById('sharesTable');
+        var tr = table.getElementsByTagName('tr');
+
+        for (var i = 1; i < tr.length; i++) { // Start at 1 to skip the header row
+            var tdSymbol = tr[i].getElementsByTagName('td')[0];
+            var tdPrice = tr[i].getElementsByTagName('td')[1];
+            var tdQuantity = tr[i].getElementsByTagName('td')[2];
+
+            if (tdSymbol || tdPrice || tdQuantity) {
+                var txtValueSymbol = tdSymbol.textContent || tdSymbol.innerText;
+                var txtValuePrice = tdPrice.textContent || tdPrice.innerText;
+                var txtValueQuantity = tdQuantity.textContent || tdQuantity.innerText;
+
+                if (txtValueSymbol.toLowerCase().indexOf(filter) > -1 ||
+                    txtValuePrice.toLowerCase().indexOf(filter) > -1 ||
+                    txtValueQuantity.toLowerCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                } else {
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+    }
+</script>

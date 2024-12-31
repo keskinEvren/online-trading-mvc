@@ -1,0 +1,92 @@
+@model IEnumerable<OnlineTradingApp.Models.Transaction>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Buy">Buy</a>
+    <a class="btn btn-primary" asp-action="Sell">Sell</a>
+</p>
+
+<!-- Search Input -->
+<div class="mb-3">
+    <input type="text" id="searchInput" class="form-control" placeholder="Search by Quantity, Date, User, or Share" onkeyup="searchTable()">
+</div>
+
+<!-- Table -->
+<table class="table table-striped" id="transactionTable">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Quantity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Share)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TransactionDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Quantity)
+                </td>
+                <td>
+                    <a class="btn btn-outline-secondary" asp-controller="Share" asp-action="ShareDetails" asp-route-symbol="@item.Share.Symbol">@item.Share.Symbol</a>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TransactionDate)
+                </td>
+                <td>
+                    <a class="btn btn-outline-secondary" asp-controller="User" asp-action="UserDetails" asp-route-email="@item.User.UserEmail">@item.User.UserEmail</a>
+                </td>
+                <td>
+                    <a class="btn btn-info" asp-action="Details" asp-route-id="@item.TransactionId">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script>
+// Function to filter the table based on search input
+function searchTable() {
+    var input = document.getElementById('searchInput');
+    var filter = input.value.toLowerCase();
+    var table = document.getElementById('transactionTable');
+    var tr = table.getElementsByTagName('tr');
+
+    for (var i = 1; i < tr.length; i++) { // Start at 1 to skip the header row
+        var tdQuantity = tr[i].getElementsByTagName('td')[0];
+        var tdTransactionDate = tr[i].getElementsByTagName('td')[1];
+        var tdUser = tr[i].getElementsByTagName('td')[2];
+        var tdShare = tr[i].getElementsByTagName('td')[3];
+
+        if (tdQuantity || tdTransactionDate || tdUser || tdShare) {
+            var txtValueQuantity = tdQuantity.textContent || tdQuantity.innerText;
+            var txtValueTransactionDate = tdTransactionDate.textContent || tdTransactionDate.innerText;
+            var txtValueUser = tdUser.textContent || tdUser.innerText;
+            var txtValueShare = tdShare.textContent || tdShare.innerText;
+
+            if (txtValueQuantity.toLowerCase().indexOf(filter) > -1 || 
+                txtValueTransactionDate.toLowerCase().indexOf(filter) > -1 || 
+                txtValueUser.toLowerCase().indexOf(filter) > -1 || 
+                txtValueShare.toLowerCase().indexOf(filter) > -1) {
+                tr[i].style.display = "";
+            } else {
+                tr[i].style.display = "none";
+            }
+        }
+    }
+}
+</script>

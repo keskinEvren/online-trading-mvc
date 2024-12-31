@@ -1,0 +1,265 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Evren\\Desktop\\OnlineTradingApp\\OnlineTradingApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C21A348-2EDD-4349-B543-D34DD48B235B}|OnlineTradingApp\\OnlineTradingApp.csproj|c:\\users\\evren\\desktop\\onlinetradingapp\\onlinetradingapp\\onlinetradingapp\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C21A348-2EDD-4349-B543-D34DD48B235B}|OnlineTradingApp\\OnlineTradingApp.csproj|solutionrelative:onlinetradingapp\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C21A348-2EDD-4349-B543-D34DD48B235B}|OnlineTradingApp\\OnlineTradingApp.csproj|c:\\users\\evren\\desktop\\onlinetradingapp\\onlinetradingapp\\onlinetradingapp\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C21A348-2EDD-4349-B543-D34DD48B235B}|OnlineTradingApp\\OnlineTradingApp.csproj|solutionrelative:onlinetradingapp\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C21A348-2EDD-4349-B543-D34DD48B235B}|OnlineTradingApp\\OnlineTradingApp.csproj|c:\\users\\evren\\desktop\\onlinetradingapp\\onlinetradingapp\\onlinetradingapp\\views\\transaction\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C21A348-2EDD-4349-B543-D34DD48B235B}|OnlineTradingApp\\OnlineTradingApp.csproj|solutionrelative:onlinetradingapp\\views\\transaction\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C21A348-2EDD-4349-B543-D34DD48B235B}|OnlineTradingApp\\OnlineTradingApp.csproj|c:\\users\\evren\\desktop\\onlinetradingapp\\onlinetradingapp\\onlinetradingapp\\controllers\\portfoliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C21A348-2EDD-4349-B543-D34DD48B235B}|OnlineTradingApp\\OnlineTradingApp.csproj|solutionrelative:onlinetradingapp\\controllers\\portfoliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C21A348-2EDD-4349-B543-D34DD48B235B}|OnlineTradingApp\\OnlineTradingApp.csproj|c:\\users\\evren\\desktop\\onlinetradingapp\\onlinetradingapp\\onlinetradingapp\\views\\share\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C21A348-2EDD-4349-B543-D34DD48B235B}|OnlineTradingApp\\OnlineTradingApp.csproj|solutionrelative:onlinetradingapp\\views\\share\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C21A348-2EDD-4349-B543-D34DD48B235B}|OnlineTradingApp\\OnlineTradingApp.csproj|c:\\users\\evren\\desktop\\onlinetradingapp\\onlinetradingapp\\onlinetradingapp\\controllers\\portfoliosharecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C21A348-2EDD-4349-B543-D34DD48B235B}|OnlineTradingApp\\OnlineTradingApp.csproj|solutionrelative:onlinetradingapp\\controllers\\portfoliosharecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C21A348-2EDD-4349-B543-D34DD48B235B}|OnlineTradingApp\\OnlineTradingApp.csproj|c:\\users\\evren\\desktop\\onlinetradingapp\\onlinetradingapp\\onlinetradingapp\\models\\portfolioshare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C21A348-2EDD-4349-B543-D34DD48B235B}|OnlineTradingApp\\OnlineTradingApp.csproj|solutionrelative:onlinetradingapp\\models\\portfolioshare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C21A348-2EDD-4349-B543-D34DD48B235B}|OnlineTradingApp\\OnlineTradingApp.csproj|c:\\users\\evren\\desktop\\onlinetradingapp\\onlinetradingapp\\onlinetradingapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6C21A348-2EDD-4349-B543-D34DD48B235B}|OnlineTradingApp\\OnlineTradingApp.csproj|solutionrelative:onlinetradingapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C21A348-2EDD-4349-B543-D34DD48B235B}|OnlineTradingApp\\OnlineTradingApp.csproj|c:\\users\\evren\\desktop\\onlinetradingapp\\onlinetradingapp\\onlinetradingapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6C21A348-2EDD-4349-B543-D34DD48B235B}|OnlineTradingApp\\OnlineTradingApp.csproj|solutionrelative:onlinetradingapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C21A348-2EDD-4349-B543-D34DD48B235B}|OnlineTradingApp\\OnlineTradingApp.csproj|c:\\users\\evren\\desktop\\onlinetradingapp\\onlinetradingapp\\onlinetradingapp\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6C21A348-2EDD-4349-B543-D34DD48B235B}|OnlineTradingApp\\OnlineTradingApp.csproj|solutionrelative:onlinetradingapp\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C21A348-2EDD-4349-B543-D34DD48B235B}|OnlineTradingApp\\OnlineTradingApp.csproj|c:\\users\\evren\\desktop\\onlinetradingapp\\onlinetradingapp\\onlinetradingapp\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{6C21A348-2EDD-4349-B543-D34DD48B235B}|OnlineTradingApp\\OnlineTradingApp.csproj|solutionrelative:onlinetradingapp\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C21A348-2EDD-4349-B543-D34DD48B235B}|OnlineTradingApp\\OnlineTradingApp.csproj|c:\\users\\evren\\desktop\\onlinetradingapp\\onlinetradingapp\\onlinetradingapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C21A348-2EDD-4349-B543-D34DD48B235B}|OnlineTradingApp\\OnlineTradingApp.csproj|solutionrelative:onlinetradingapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C21A348-2EDD-4349-B543-D34DD48B235B}|OnlineTradingApp\\OnlineTradingApp.csproj|c:\\users\\evren\\desktop\\onlinetradingapp\\onlinetradingapp\\onlinetradingapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C21A348-2EDD-4349-B543-D34DD48B235B}|OnlineTradingApp\\OnlineTradingApp.csproj|solutionrelative:onlinetradingapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C21A348-2EDD-4349-B543-D34DD48B235B}|OnlineTradingApp\\OnlineTradingApp.csproj|c:\\users\\evren\\desktop\\onlinetradingapp\\onlinetradingapp\\onlinetradingapp\\models\\portfolio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C21A348-2EDD-4349-B543-D34DD48B235B}|OnlineTradingApp\\OnlineTradingApp.csproj|solutionrelative:onlinetradingapp\\models\\portfolio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C21A348-2EDD-4349-B543-D34DD48B235B}|OnlineTradingApp\\OnlineTradingApp.csproj|c:\\users\\evren\\desktop\\onlinetradingapp\\onlinetradingapp\\onlinetradingapp\\controllers\\sharecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C21A348-2EDD-4349-B543-D34DD48B235B}|OnlineTradingApp\\OnlineTradingApp.csproj|solutionrelative:onlinetradingapp\\controllers\\sharecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\Evren\\Desktop\\OnlineTradingApp\\OnlineTradingApp\\OnlineTradingApp\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "OnlineTradingApp\\Models\\Transaction.cs",
+              "ToolTip": "C:\\Users\\Evren\\Desktop\\OnlineTradingApp\\OnlineTradingApp\\OnlineTradingApp\\Models\\Transaction.cs",
+              "RelativeToolTip": "OnlineTradingApp\\Models\\Transaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T09:51:04.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Evren\\Desktop\\OnlineTradingApp\\OnlineTradingApp\\OnlineTradingApp\\Views\\Transaction\\Index.cshtml",
+              "RelativeDocumentMoniker": "OnlineTradingApp\\Views\\Transaction\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Evren\\Desktop\\OnlineTradingApp\\OnlineTradingApp\\OnlineTradingApp\\Views\\Transaction\\Index.cshtml",
+              "RelativeToolTip": "OnlineTradingApp\\Views\\Transaction\\Index.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T09:36:00.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TransactionController.cs",
+              "DocumentMoniker": "C:\\Users\\Evren\\Desktop\\OnlineTradingApp\\OnlineTradingApp\\OnlineTradingApp\\Controllers\\TransactionController.cs",
+              "RelativeDocumentMoniker": "OnlineTradingApp\\Controllers\\TransactionController.cs",
+              "ToolTip": "C:\\Users\\Evren\\Desktop\\OnlineTradingApp\\OnlineTradingApp\\OnlineTradingApp\\Controllers\\TransactionController.cs",
+              "RelativeToolTip": "OnlineTradingApp\\Controllers\\TransactionController.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAwwBQAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T09:35:41.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Evren\\Desktop\\OnlineTradingApp\\OnlineTradingApp\\OnlineTradingApp\\Views\\Share\\Index.cshtml",
+              "RelativeDocumentMoniker": "OnlineTradingApp\\Views\\Share\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Evren\\Desktop\\OnlineTradingApp\\OnlineTradingApp\\OnlineTradingApp\\Views\\Share\\Index.cshtml",
+              "RelativeToolTip": "OnlineTradingApp\\Views\\Share\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T08:32:38.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PortfolioShare.cs",
+              "DocumentMoniker": "C:\\Users\\Evren\\Desktop\\OnlineTradingApp\\OnlineTradingApp\\OnlineTradingApp\\Models\\PortfolioShare.cs",
+              "RelativeDocumentMoniker": "OnlineTradingApp\\Models\\PortfolioShare.cs",
+              "ToolTip": "C:\\Users\\Evren\\Desktop\\OnlineTradingApp\\OnlineTradingApp\\OnlineTradingApp\\Models\\PortfolioShare.cs",
+              "RelativeToolTip": "OnlineTradingApp\\Models\\PortfolioShare.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T08:28:56.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Evren\\Desktop\\OnlineTradingApp\\OnlineTradingApp\\OnlineTradingApp\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "OnlineTradingApp\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Evren\\Desktop\\OnlineTradingApp\\OnlineTradingApp\\OnlineTradingApp\\Properties\\launchSettings.json",
+              "RelativeToolTip": "OnlineTradingApp\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-20T08:27:12.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Evren\\Desktop\\OnlineTradingApp\\OnlineTradingApp\\OnlineTradingApp\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "OnlineTradingApp\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Evren\\Desktop\\OnlineTradingApp\\OnlineTradingApp\\OnlineTradingApp\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "OnlineTradingApp\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-20T08:27:06.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\Evren\\Desktop\\OnlineTradingApp\\OnlineTradingApp\\OnlineTradingApp\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "OnlineTradingApp\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\Evren\\Desktop\\OnlineTradingApp\\OnlineTradingApp\\OnlineTradingApp\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "OnlineTradingApp\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-20T08:27:02.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PortfolioController.cs",
+              "DocumentMoniker": "C:\\Users\\Evren\\Desktop\\OnlineTradingApp\\OnlineTradingApp\\OnlineTradingApp\\Controllers\\PortfolioController.cs",
+              "RelativeDocumentMoniker": "OnlineTradingApp\\Controllers\\PortfolioController.cs",
+              "ToolTip": "C:\\Users\\Evren\\Desktop\\OnlineTradingApp\\OnlineTradingApp\\OnlineTradingApp\\Controllers\\PortfolioController.cs",
+              "RelativeToolTip": "OnlineTradingApp\\Controllers\\PortfolioController.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAewIQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T08:03:18.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PortfolioShareController.cs",
+              "DocumentMoniker": "C:\\Users\\Evren\\Desktop\\OnlineTradingApp\\OnlineTradingApp\\OnlineTradingApp\\Controllers\\PortfolioShareController.cs",
+              "RelativeDocumentMoniker": "OnlineTradingApp\\Controllers\\PortfolioShareController.cs",
+              "ToolTip": "C:\\Users\\Evren\\Desktop\\OnlineTradingApp\\OnlineTradingApp\\OnlineTradingApp\\Controllers\\PortfolioShareController.cs",
+              "RelativeToolTip": "OnlineTradingApp\\Controllers\\PortfolioShareController.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAUwKoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T08:29:00.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "favicon.ico -  [English (United Kingdom)] - Icon [32x32, 32 bit, BMP]",
+              "DocumentMoniker": "C:\\Users\\Evren\\Desktop\\OnlineTradingApp\\OnlineTradingApp\\OnlineTradingApp\\wwwroot\\favicon.ico",
+              "RelativeDocumentMoniker": "OnlineTradingApp\\wwwroot\\favicon.ico",
+              "ToolTip": "C:\\Users\\Evren\\Desktop\\OnlineTradingApp\\OnlineTradingApp\\OnlineTradingApp\\wwwroot\\favicon.ico -  [English (United Kingdom)] - Icon [32x32, 32 bit, BMP]",
+              "RelativeToolTip": "OnlineTradingApp\\wwwroot\\favicon.ico -  [English (United Kingdom)] - Icon [32x32, 32 bit, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2024-12-20T08:26:59.082Z",
+              "EditorCaption": " -  [English (United Kingdom)] - Icon [32x32, 32 bit, BMP]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApplicationDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Evren\\Desktop\\OnlineTradingApp\\OnlineTradingApp\\OnlineTradingApp\\Data\\ApplicationDBContext.cs",
+              "RelativeDocumentMoniker": "OnlineTradingApp\\Data\\ApplicationDBContext.cs",
+              "ToolTip": "C:\\Users\\Evren\\Desktop\\OnlineTradingApp\\OnlineTradingApp\\OnlineTradingApp\\Data\\ApplicationDBContext.cs",
+              "RelativeToolTip": "OnlineTradingApp\\Data\\ApplicationDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T08:18:33.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Portfolio.cs",
+              "DocumentMoniker": "C:\\Users\\Evren\\Desktop\\OnlineTradingApp\\OnlineTradingApp\\OnlineTradingApp\\Models\\Portfolio.cs",
+              "RelativeDocumentMoniker": "OnlineTradingApp\\Models\\Portfolio.cs",
+              "ToolTip": "C:\\Users\\Evren\\Desktop\\OnlineTradingApp\\OnlineTradingApp\\OnlineTradingApp\\Models\\Portfolio.cs",
+              "RelativeToolTip": "OnlineTradingApp\\Models\\Portfolio.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T08:04:10.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ShareController.cs",
+              "DocumentMoniker": "C:\\Users\\Evren\\Desktop\\OnlineTradingApp\\OnlineTradingApp\\OnlineTradingApp\\Controllers\\ShareController.cs",
+              "RelativeDocumentMoniker": "OnlineTradingApp\\Controllers\\ShareController.cs",
+              "ToolTip": "C:\\Users\\Evren\\Desktop\\OnlineTradingApp\\OnlineTradingApp\\OnlineTradingApp\\Controllers\\ShareController.cs",
+              "RelativeToolTip": "OnlineTradingApp\\Controllers\\ShareController.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T08:03:39.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Evren\\Desktop\\OnlineTradingApp\\OnlineTradingApp\\OnlineTradingApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "OnlineTradingApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Evren\\Desktop\\OnlineTradingApp\\OnlineTradingApp\\OnlineTradingApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "OnlineTradingApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T08:03:13.754Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
